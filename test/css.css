@@ -1,0 +1,37 @@
+#color-picker{
+    border-radius:20px;
+}
+
+#color-picker:hover{
+    border:none;
+}
+
+#color-picker::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+  
+  #color-picker::-webkit-color-swatch {
+    border: none;
+    border-radius: 20px;
+  }
+  
+  #color-picker:hover::-webkit-color-swatch {
+    border: none;
+    box-shadow: none;
+  }
+
+
+  #color-picker {
+    border: none;
+    -moz-appearance: none;
+  }
+  
+  #color-picker::-moz-color-swatch {
+    border-radius: 20px;
+    border: none;
+  }
+  
+  #color-picker:hover::-moz-color-swatch {
+    border: none;
+    box-shadow: none;
+  }
